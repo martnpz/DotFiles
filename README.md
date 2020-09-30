@@ -1,4 +1,4 @@
 # DotFiles
 Linux configs Arch, Ubuntu, Windows.
 
-!(.SetUp.png)
+![Terminal](.SetUp.png)
