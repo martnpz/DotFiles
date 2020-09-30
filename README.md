@@ -1,4 +1,4 @@
 # DotFiles
-Linux configs Arch, Ubuntu, Windows.
+Linux configs Arch, Ubuntu, WSL.
 
 ![Terminal](SetUp.png)
