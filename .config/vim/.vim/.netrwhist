@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/mnt/c/Users/Martin/Desktop/esto'
+let g:netrw_dirhist_6='/home/martin/.gem/specs/rubygems.org%443/quick/Marshal.4.8'
+let g:netrw_dirhist_5='/home/martin/.gem/specs/rubygems.org%443/quick'
+let g:netrw_dirhist_4='/home/martin/.gem/specs/rubygems.org%443'
+let g:netrw_dirhist_3='/home/martin/.gem/specs'
+let g:netrw_dirhist_2='/home/martin/.gem'
+let g:netrw_dirhist_1='/home/martin'

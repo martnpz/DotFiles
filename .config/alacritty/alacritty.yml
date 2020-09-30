@@ -1,0 +1,180 @@
+#env:
+  # TERM variable
+  #
+  # This value is used to set the `$TERM` environment variable for
+  # each instance of Alacritty. If it is not present, alacritty will
+  # check the local terminfo database and use `alacritty` if it is
+  # available, otherwise `xterm-256color` is used.
+  #TERM: alacritty
+
+window:
+  # Specified in number of columns/lines, not pixels.
+  #dimensions:
+  #  columns: 0
+  #  lines: 0
+
+  # Window position (changes require restart)
+  position:
+    x: 0
+    y: 0
+
+  # Window padding (changes require restart)
+  padding:
+    x: 3
+    y: 0
+
+  # Spread additional padding evenly around the terminal content.
+  #dynamic_padding: true
+
+  # Window decorations
+  # Values for `decorations`:
+  #     - full: Borders and title bar
+  #     - none: Neither borders nor title bar
+  decorations: full
+
+  # Window title
+  title: Martín
+
+  # Allow terminal applications to change Alacritty's window title.
+  dynamic_title: false
+
+  # Window class (Linux/BSD only):
+  #class:
+    # Application instance name
+    #instance: Alacritty
+    # General application class
+    #general: Alacritty
+
+scrolling:
+  # Specifying '0' will disable scrolling.
+  history: 100000
+
+  # Scrolling distance multiplier.
+  multiplier: 3
+
+# Font configuration
+font:
+  normal:
+    family: MesloLGS NF
+    style: Bold
+
+  # Bold font face
+  bold:
+    family: MesloLGS NF
+    style: Bold
+
+  # Point size
+  size: 11.0
+
+  #offset:
+  #  x: 0
+  #  y: 0
+
+  #glyph_offset:
+  #  x: 0
+  #  y: 0
+
+# If `true`, bold text is drawn using the bright color variants.
+#draw_bold_text_with_bright_colors: false
+
+colors:
+  primary:
+    background: '#1E3540'
+    foreground: '#f2f2f2'
+
+    #dim_foreground: '#828482'
+    #bright_foreground: '#eaeaea'
+
+  # Selection colors
+  selection:
+    text: CellBackground
+    background: '#f2f2aa'
+
+  # Normal colors
+  normal:
+    black:   '#263626'
+    red:     '#E60000'
+    green:   '#C4CFF7'
+    yellow:  '#E07712'
+    blue:    '#17D065'
+    magenta: '#BF68B4'
+    cyan:    '#9EE501'
+    white:   '#A0F21D'
+
+  # Bright colors
+  bright:
+    black:   '#9A9E97'
+    red:     '#ef2929'
+    green:   '#C4E2A9'
+    yellow:  '#fce94f'
+    blue:    '#6BA3F5'
+    magenta: '#ad7fa8'
+    cyan:    '#A1D1E2'
+    white:   '#FFFFFF'
+
+# Bell
+bell:
+  # Values for `animation`:
+  #   - Ease
+  #   - EaseOut
+  #   - EaseOutSine
+  #   - EaseOutQuad
+  #   - EaseOutCubic
+  #   - EaseOutQuart
+  #   - EaseOutQuint
+  #   - EaseOutExpo
+  #   - EaseOutCirc
+  #   - Linear
+  animation: Ease
+  duration: 1
+  #color: '#ffffff'
+
+# Background opacity
+# The value `0.0` is completely transparent and `1.0` is opaque.
+background_opacity: 0.85
+
+selection:
+  #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
+
+  # When set to `true`, selected text will be copied to the primary clipboard.
+  save_to_clipboard: true
+
+cursor:
+  # Values for `style`:
+  #   - ▇ Block
+  #   - _ Underline
+  #   - | Beam
+  style: Underline
+
+  # Vi mode cursor style
+  vi_mode_style: Beam
+
+  # If this is `true`, the cursor will be rendered as a hollow box when the
+  unfocused_hollow: true
+
+  # Thickness of the cursor relative to the cell width as floating point number
+  thickness: 0.25
+
+# Live config reload (changes require restart)
+live_config_reload: true
+
+# Shell
+shell:
+  program: C:\windows\system32\wsl.exe
+#  args:
+#    - --login
+
+# Startup directory
+working_directory: C:\Users\Martin\Desktop
+
+# Send ESC (\x1b) before characters when alt is pressed.
+alt_send_esc: false
+
+# Mouse bindings
+#   - Middle
+#   - Left
+#   - Right
+#   - Numeric identifier such as `5`
+# - `action` (see key bindings)
+mouse_bindings:
+  - { mouse: Right, action: PasteSelection }
