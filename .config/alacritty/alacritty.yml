@@ -165,7 +165,7 @@ shell:
 #    - --login
 
 # Startup directory
-working_directory: C:\Users\Martin\Desktop
+working_directory: "custom directory path"
 
 # Send ESC (\x1b) before characters when alt is pressed.
 alt_send_esc: false
