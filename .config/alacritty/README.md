@@ -1,6 +1,8 @@
 # Alacritty for WSL
 
-![Alacritty](.config/alacritty/alaccritty.png)
+![Alacritty](/.config/alacritty/alaccritty.png)
+
+# Install
 
 1. Install Chocolatey
 2. Paste on PowerShell(admin)
