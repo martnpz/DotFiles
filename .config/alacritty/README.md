@@ -1,11 +1,11 @@
 # Alacritty for WSL
 
-## Install Chocolatey
-Paste on PowerShell(admin)
+1. Install Chocolatey
+2. Paste on PowerShell(admin)
 ```
 > choco install alacritty
 ````
-Copy alacritty.yml to
+3. Copy alacritty.yml to
 ```
 C:\Users\"user"\AppData\Roaming\Alacritty\
 ```
@@ -16,6 +16,6 @@ C:\Users\"user"\AppData\Roaming\Alacritty\
 sudo "package_manager" install alacritty
 
 ```
-### Or visit https://github.com/alacritty/alacritty
+Or visit https://github.com/alacritty/alacritty
 
-**Comment __shell__ line(162) for default bash** 
+### **Comment __shell__ line(162) for default bash** 
