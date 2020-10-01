@@ -1,3 +1,5 @@
+![Vim](/.config/vim/vim.png)
+
 # Install 
 
 1. Copy config to ~/  and then 
@@ -24,5 +26,7 @@ Open again
 
 > python3 install.py
 ```
+
+### If Vim is lazzy, change ```colorscheme```
 
 
