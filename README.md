@@ -4,7 +4,7 @@ Linux's configs: Arch, Ubuntu, WSL.
 ![Terminal](SetUp.png)
 
 
-# For Winddows
+# For Windows
  
  We need.
  1. WSL enable
