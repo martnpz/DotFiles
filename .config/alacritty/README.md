@@ -19,3 +19,8 @@ sudo "package_manager" install alacritty
 Or visit https://github.com/alacritty/alacritty
 
 ### **Comment __shell__ line(162) for default bash** 
+```
+# Shell
+shell:
+  program: C:\windows\system32\wsl.exe
+ ```
