@@ -33,7 +33,7 @@ window:
   decorations: full
 
   # Window title
-  title: Martín
+  title: "title"
 
   # Allow terminal applications to change Alacritty's window title.
   dynamic_title: false
