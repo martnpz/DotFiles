@@ -1,6 +1,6 @@
 # Alacritty for WSL
 
-![Alacritty](/.config/alacritty/alaccritty.png)
+![Alacritty](../.config/alacritty/alaccritty.png)
 
 # Install
 
