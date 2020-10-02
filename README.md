@@ -12,3 +12,15 @@ Linux's configs: Arch, Ubuntu, WSL.
  3. Xserver https://sourceforge.net/projects/vcxsrv/
  4. Ubuntu system from Microsoft Store
  5. Font family ```MesloLGS NF``` from https://www.nerdfonts.com/
+
+# Install
+
+1. Clone repository
+```
+> git clone https://github.com/martnpz/DotFiles.git
+ cd DotFiles/
+```
+2. Launch installer
+```
+> sh install.sh
+```
