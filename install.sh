@@ -1,5 +1,5 @@
-# Alacritty
-ln -s $(pwd)/.config/alacritty/alacritty.yml $HOME/.config/
+# Alacritty
+ln -s $(pwd)/.config/alacritty $HOME/.config/
 # Neofetch
 ln -s $(pwd)/.config/neofetch $HOME/.config/
 # Ranger
