@@ -11,7 +11,7 @@
 ````
 3. Copy alacritty.yml to
 ```
-C:\Users\"user"\AppData\Roaming\Alacritty\
+%APPDATA%\alacritty\
 ```
 
 # Alacrity for Linux
