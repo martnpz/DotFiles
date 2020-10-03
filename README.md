@@ -6,7 +6,7 @@ Linux's configs: Arch, Ubuntu, WSL.
 
 # For Windows
  
- We need.
+ We need
  1. WSL enable
  2. Chocolatey
  3. Xserver https://sourceforge.net/projects/vcxsrv/
@@ -23,4 +23,8 @@ Linux's configs: Arch, Ubuntu, WSL.
 2. Launch installer
 ```
 > sh install.sh
+```
+4. wallpaper
+```
+> wget https://images.hdqwalls.com/download/small-memory-8k-2a-3840x2400.jpg
 ```
