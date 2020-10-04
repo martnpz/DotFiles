@@ -31,13 +31,13 @@ Linux's configs: Arch, Ubuntu, WSL.
 
 # Apps 
 
-| App | Description                                             | Config                                                                  |
+| App                                                                     | Description               | Config                                                                  |
 | -------------------------------------------------------------------     |-------------------------- | ------------------                                                      |
 | **[Alacritty](https://github.com/alacritty/alacritty)**                 | Terminal                  | [>>](https://github.com/martnpz/DotFiles/tree/master/.config/alacritty) |
-| **[Ranger](https://github.com/ranger/ranger)**                          | File exolorer on terminal |
-| **[Nemo](https://wiki.archlinux.org/index.php/Nemo)**                   | File exolorer             |
-| **[Vim](https://wiki.archlinux.org/index.php/Vim)**                     | Pain text editor          |
-| **[Tmux](https://github.com/tmux/tmux/wiki)**                           | Multiplex                 |
+| **[Ranger](https://github.com/ranger/ranger)**                          | File exolorer on terminal | [>>](https://github.com/martnpz/DotFiles/tree/master/.config/ranger)    |
+| **[Nemo](https://wiki.archlinux.org/index.php/Nemo)**                   | File exolorer             |                                                                         |
+| **[Vim](https://wiki.archlinux.org/index.php/Vim)**                     | Pain text editor          | [>>](https://github.com/martnpz/DotFiles/tree/master/.config/vim)       |
+| **[Tmux](https://github.com/tmux/tmux/wiki)**                           | Multiplex                 | [>>](https://github.com/martnpz/DotFiles/tree/master/.config/tmux)      |
 | **[Scrot](https://github.com/resurrecting-open-source-projects/scrot)** | Screen Capture            |
 | **[Rofi](https://wiki.archlinux.org/index.php/Rofi)**                   | App launcher              |
 | **[Min](https://www.archlinux.org/packages/community/any/min/)**        | Browser                   |
