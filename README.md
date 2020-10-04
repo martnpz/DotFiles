@@ -31,8 +31,8 @@ Linux's configs: Arch, Ubuntu, WSL.
 
 # Apps 
 
-| App                                                                     | Description                   | Config                |
-| ------------------------------------------------------------------------|-------------------------------| ----------------------|
+| App                                                       | Description                   | Config                |
+| ----------------------------------------------------------|-------------------------------| ----------------------|
 | **[Alacritty](https://github.com/alacritty/alacritty)**                 | Terminal                      |
 | **[Ranger](https://github.com/ranger/ranger)**                          | File exolorer on terminal     |
 | **[Nemo](https://wiki.archlinux.org/index.php/Nemo)**                   | File exolorer                 |
