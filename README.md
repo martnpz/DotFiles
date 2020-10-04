@@ -31,15 +31,15 @@ Linux's configs: Arch, Ubuntu, WSL.
 
 # Apps 
 
-| App                                                       | Description                   | Config                |
-| ----------------------------------------------------------|-------------------------------| ----------------------|
-| **[Alacritty](https://github.com/alacritty/alacritty)**                 | Terminal                      |
-| **[Ranger](https://github.com/ranger/ranger)**                          | File exolorer on terminal     |
-| **[Nemo](https://wiki.archlinux.org/index.php/Nemo)**                   | File exolorer                 |
-| **[Vim](https://wiki.archlinux.org/index.php/Vim)**                     | Pain text editor              |
-| **[Tmux](https://github.com/tmux/tmux/wiki)**                           | Multiplex                     |
-| **[Scrot](https://github.com/resurrecting-open-source-projects/scrot)** | Screen Capture                |
-| **[Rofi](https://wiki.archlinux.org/index.php/Rofi)**                   | App launcher                  |
-| **[Min](https://www.archlinux.org/packages/community/any/min/)**        | Browser                       |
-| **[Telegram-cli](https://github.com/vysheng/tg)**                       | Message app on terminal       |
-| **[Telegram-desktop](https://wiki.archlinux.org/index.php/Telegram)**   | Message app                   |
+| App                                                                     | Description               | Config                |
+| -------------------------------------------------------------------     |-------------------------- | ------------------    |
+| **[Alacritty](https://github.com/alacritty/alacritty)**                 | Terminal                  |[[https://gitlab.com/dwt1/dotfiles/-/tree/master/.config/awesome]
+| **[Ranger](https://github.com/ranger/ranger)**                          | File exolorer on terminal |
+| **[Nemo](https://wiki.archlinux.org/index.php/Nemo)**                   | File exolorer             |
+| **[Vim](https://wiki.archlinux.org/index.php/Vim)**                     | Pain text editor          |
+| **[Tmux](https://github.com/tmux/tmux/wiki)**                           | Multiplex                 |
+| **[Scrot](https://github.com/resurrecting-open-source-projects/scrot)** | Screen Capture            |
+| **[Rofi](https://wiki.archlinux.org/index.php/Rofi)**                   | App launcher              |
+| **[Min](https://www.archlinux.org/packages/community/any/min/)**        | Browser                   |
+| **[Telegram-cli](https://github.com/vysheng/tg)**                       | Message app on terminal   |
+| **[Telegram-desktop](https://wiki.archlinux.org/index.php/Telegram)**   | Message app               |
