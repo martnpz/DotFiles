@@ -31,7 +31,7 @@ Linux's configs: Arch, Ubuntu, WSL.
 
 # Apps 
 
-| App                                                                     | Description               | Config                                                                  |
+| App | Description               | Config                                                                  |
 | -------------------------------------------------------------------     |-------------------------- | ------------------                                                      |
 | **[Alacritty](https://github.com/alacritty/alacritty)**                 | Terminal                  | [>>](https://github.com/martnpz/DotFiles/tree/master/.config/alacritty) |
 | **[Ranger](https://github.com/ranger/ranger)**                          | File exolorer on terminal | [>>](https://github.com/martnpz/DotFiles/tree/master/.config/ranger)    |
