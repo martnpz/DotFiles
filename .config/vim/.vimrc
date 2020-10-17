@@ -126,6 +126,7 @@ Plug 'VundleVim/vundle.vim'
 Plug 'mattn/emmet-vim'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
 Plug 'tpope/vim-dispatch'
+Plug 'chemzqm/vim-run'
 
 call plug#end()
 
@@ -150,3 +151,9 @@ nnoremap <leader>u :UndotreeShow<CR>
 nnoremap <leader>pv :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>
 
 set ttymouse=sgr 
+
+let g:vim_run_command_map = {
+  \'javascript': 'node',
+  \'ruby': 'ruby',
+  \'python': 'python',
+  \}
