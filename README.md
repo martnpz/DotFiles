@@ -1,7 +1,7 @@
 # DotFiles
 Linux's configs: Arch, Ubuntu, WSL.
 
-![Terminal](SetUp.png)
+![Setup preview](setup_screenshot.png)
 
 
 # For Windows
