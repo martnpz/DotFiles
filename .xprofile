@@ -1,0 +1,5 @@
+redshift -l 32.23323:11.23322 &
+picom --experimental-backends &
+feh --bg-scale $HOME/bg.jpg &
+copyq &
+deadd-notification-center &

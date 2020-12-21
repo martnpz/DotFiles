@@ -12,7 +12,7 @@ window:
 
   startup_mode: Maximized
 
-  title: Martin
+  title: Terminal
 
   dynamic_title: false
 
@@ -30,22 +30,22 @@ scrolling:
 
 font:
   normal:
-    family: MesloLGS NF
+    family: Hack Nerd Font
     style: Bold
 
   # Bold font face
   bold:
-    family: MesloLGS NF
+    family: Hack Nerd Font
     style: Bold
 
   # Point size
-  size: 11.0
+  size: 10.0
 
 #draw_bold_text_with_bright_colors: false
 
 colors:
   primary:
-    background: '#1E3540'
+    background: '#000000' #1E3540
     foreground: '#f2f2f2'
 
     #dim_foreground: '#828482'
@@ -58,25 +58,25 @@ colors:
 
   # Normal colors
   normal:
-    black:   '#263626'
-    red:     '#E60000'
-    green:   '#C4CFF7'
-    yellow:  '#E07712'
-    blue:    '#17D065'
-    magenta: '#BF68B4'
-    cyan:    '#9EE501'
-    white:   '#A0F21D'
+    black:   '#2f1e2e'
+    red:     '#ff2222'
+    green:   '#48b685'
+    yellow:  '#fec418'
+    blue:    '#17CF65'
+    magenta: '#815ba4'
+    cyan:    '#5bc4bf'
+    white:   '#fefefe'
 
   # Bright colors
   bright:
-    black:   '#9A9E97'
-    red:     '#ef2929'
-    green:   '#C4E2A9'
-    yellow:  '#fce94f'
-    blue:    '#6BA3F5'
-    magenta: '#ad7fa8'
-    cyan:    '#A1D1E2'
-    white:   '#FFFFFF'
+    black:   '#776e71'
+    red:     '#ef6155'
+    green:   '#48b685'
+    yellow:  '#fec418'
+    blue:    '#17CF65'
+    magenta: '#815ba4'
+    cyan:    '#5bc4bf'
+    white:   '#e7e9db'
 
 bell:
   # Values for `animation`:
@@ -95,7 +95,7 @@ bell:
   #color: '#ffffff'
 
 # Background opacity
-background_opacity: 0.85
+background_opacity: 0.55
 
 selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
@@ -118,13 +118,12 @@ cursor:
 live_config_reload: true
 
 # Shell
-shell:
-  program: C:\windows\system32\wsl.exe
+#shell:
+#  program:
 #  args:
 #    - --login
 
 # Startup directory
-working_directory: C:\Users\Martin\Desktop
 
 # Send ESC (\x1b) before characters when alt is pressed.
 alt_send_esc: false

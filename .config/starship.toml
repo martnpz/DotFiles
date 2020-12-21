@@ -1,0 +1,35 @@
+[battery]
+disabled = true
+
+[character]
+format = " ﬌ "
+success_symbol = " ﬌(bold green) "
+error_symbol = " ﬌(bold red) "
+
+# Directory setttings
+[directory]
+format = "[$path](fg:yellow)[$read_only]($read_only_style) "
+truncation_length = 8
+truncate_to_repo = false
+truncation_symbol = "…/"
+
+# Workaround for slow prompt with git status
+[git_status]
+disabled = false
+
+[python]
+format = "[$symbol]($style)"
+
+[nodejs]
+format = "[$symbol](fg:green) "
+style = "bold green"
+
+[git_branch]
+symbol = "🌱 "
+truncation_length = 1
+truncation_symbol = ""
+ 
+[username]
+show_always = true
+format = "[](fg:blue)[$user](bg:blue)[](fg:blue) in "
+
